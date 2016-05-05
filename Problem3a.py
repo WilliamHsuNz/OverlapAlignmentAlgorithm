@@ -3,12 +3,12 @@ import numpy as np
 Author: William Hsu
 Date: 11 May 2015
 
-This programme performs alignment of two sequences using the overlap alignment algorithm.  
-The programme takes a score matrix and a gap penalty and constructs a score table.  The 
+This program performs alignment of two sequences using the overlap alignment algorithm.  
+The program takes a score matrix and a gap penalty and constructs a score table.  The 
 score table is backtacked to find the best alignment.  
 
 Instructions 
-Use the following commandline to run the programme.  -m is for match score -M is for mismatch
+Use the following commandline to run the program.  -m is for match score -M is for mismatch
 score and -d is for gap penalty.  
 
 python -m Problem3a -m 2 -M -2 -d -3 Problem2c_descendant1.csv Problem2c_descendant2.csv
